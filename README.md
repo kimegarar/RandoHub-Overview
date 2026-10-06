@@ -61,10 +61,12 @@ El proyecto se ha desarrollado en fases incrementales, resultando en un conjunto
 | **Entorno Dev** | PyCharm, venv, Git                                       | Herramientas estándar para un flujo de desarrollo profesional y control de versiones.                                                        |
 
 
-
 ## Modelo de Datos y Arquitectura
 El corazón de la aplicación es su base de datos relacional. El ORM de Django gestiona entidades con relaciones complejas (One-to-Many y Many-to-Many):
 - `Randonneur`: Perfiles de usuarios/ciclistas con su historial y palmarés.
 - `Club / Organización`: Entidades que alojan a los ciclistas y organizan pruebas.
 - `Event`: Modelado de pruebas homologadas con atributos específicos (distancia, fecha, desnivel, tiempos de corte).
+
+<img width="942" height="518" alt="Screenshot 2026-10-06 at 16 41 47" src="https://github.com/user-attachments/assets/1c8e2f37-c8a9-43ef-b498-c099a39a9276" />
+
 
